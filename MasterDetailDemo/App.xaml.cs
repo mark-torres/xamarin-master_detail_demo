@@ -8,7 +8,7 @@ namespace MasterDetailDemo
 		{
 			InitializeComponent();
 
-			MainPage = new MasterDetailDemoPage();
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart()
