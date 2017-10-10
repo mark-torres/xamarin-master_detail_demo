@@ -3,7 +3,7 @@
 	xmlns="http://xamarin.com/schemas/2014/forms" 
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	Title="Master Detail Demo"
-	Padding="10, 50, 10, 10"
+	Padding="10, 20, 10, 10"
 	Icon="ic_menu_black.png"
 	x:Class="MasterDetailDemo.SideMenuPage">
 	<ContentPage.Content>
@@ -12,6 +12,7 @@
 			<Label Text="Master Detail Demo" FontSize="Large"/>
 
 			<ListView x:Name="listMasterItems" 
+				HeightRequest="150"
 				SeparatorVisibility="None">
 				<ListView.ItemTemplate>
 					<DataTemplate>
@@ -28,6 +29,8 @@
 				</ListView.ItemTemplate>
 			</ListView>
 
+			<Label Text="More controls here" FontSize="Small"/>
+			
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
