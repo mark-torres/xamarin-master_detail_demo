@@ -3,13 +3,31 @@
 	xmlns="http://xamarin.com/schemas/2014/forms" 
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	Title="Master Detail Demo"
-	Padding="10, 30, 10, 10"
+	Padding="10, 50, 10, 10"
 	Icon="ic_menu_black.png"
 	x:Class="MasterDetailDemo.SideMenuPage">
 	<ContentPage.Content>
-		<StackLayout Orientation="Vertical">
-			<Label Text="Test label on side menu" />
-			<Button Text="Button 1" />
+		<StackLayout Orientation="Vertical" VerticalOptions="Start">
+
+			<Label Text="Master Detail Demo" FontSize="Large"/>
+
+			<ListView x:Name="listMasterItems" 
+				SeparatorVisibility="None">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<StackLayout Orientation="Horizontal">
+								<Image WidthRequest="24" HeightRequest="24" Source="{Binding IconSource}" />
+								<Label Text="{Binding Title}" 
+									VerticalOptions="Center"
+									FontSize="Small"
+									HorizontalOptions="FillAndExpand"/>
+							</StackLayout>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
