@@ -4,7 +4,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	Title="Master Detail Demo"
 	Padding="10, 30, 10, 10"
-	Icon="side_menu.png"
+	Icon="ic_menu_black.png"
 	x:Class="MasterDetailDemo.SideMenuPage">
 	<ContentPage.Content>
 		<StackLayout Orientation="Vertical">

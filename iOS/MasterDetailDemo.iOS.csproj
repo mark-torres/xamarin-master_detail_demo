@@ -104,13 +104,19 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\side_menu.png.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\side_menu.png.imageset\ic_menu_black_24dp.png" />
+    <ImageAsset Include="Assets.xcassets\ic_share_black.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ic_share_black.png.imageset\ic_share_black_36dp.png" />
+    <ImageAsset Include="Assets.xcassets\ic_share_black.png.imageset\ic_share_black_24dp.png" />
+    <ImageAsset Include="Assets.xcassets\ic_menu_black.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ic_menu_black.png.imageset\ic_menu_black_24dp.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Assets.xcassets\side_menu.imageset\" />
-    <Folder Include="Assets.xcassets\side_menu.png.imageset\" />
+    <Folder Include="Assets.xcassets\ic_menu_black.png.imageset\" />
+    <Folder Include="Assets.xcassets\ic_share_black.png.imageset\" />
+    <Folder Include="Assets.xcassets\ic_menu_black.png.imageset\" />
+    <Folder Include="Assets.xcassets\ic_menu_black.png.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />

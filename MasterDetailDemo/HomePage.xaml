@@ -5,6 +5,9 @@
 	Title="Home"
 	Padding="20"
 	x:Class="MasterDetailDemo.HomePage">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Name="MenuItemShare" Order="Primary" Icon="ic_share_black.png" Text="Share" Priority="0"/>
+	</ContentPage.ToolbarItems>
 	<ContentPage.Content>
 		<StackLayout Orientation="Vertical">
 			<Label Text="This is the home page" />
